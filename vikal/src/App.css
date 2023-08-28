@@ -3,6 +3,7 @@
   background-color: #f6f5f3;
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 20px;
+  margin: 5px;
 }
 .App-logo{
   width: 300px;
@@ -19,5 +20,13 @@
   width: 19px;
   cursor: pointer;
 }
-
- 
+ h1{
+   text-align: center;
+ }
+ footer{
+   display: flex;
+   justify-content: space-between;
+ }
+ .img-fluid{
+   width: 500px;
+ }

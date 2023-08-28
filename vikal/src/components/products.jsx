@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function Products() {
     return (
         <>
-        
+        hola Lore !!!!
         </>
     )
 };
