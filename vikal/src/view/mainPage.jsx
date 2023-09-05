@@ -5,7 +5,7 @@ import Carrusel from "../components/carrusel"
 
 function MainPage() {
     return (
-        <>
+        <div className="mainPage">
         <Menu />
         <Carrusel />
         <hr />
@@ -38,7 +38,7 @@ function MainPage() {
     <p>tres</p>
 </div>
 </footer>
-        </>
+        </div>
     )
 }
  export default MainPage;

@@ -1,17 +1,24 @@
 import "../App.css";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Menu from "./menu";
-import Category from "./category";
+import Form from 'react-bootstrap/Form';
+import Menu from "../components/menu"
 
-function Products() {
+function Contact () {
     return (
-        <>
-        <Menu />
-        <Category /> 
-
-      
-        <hr />
+<>
+<Menu />
+<Form>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+        <Form.Label>Ingresa tu correo</Form.Label>
+        <Form.Control type="email" placeholder="name@example.com" />
+      </Form.Group>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+        <Form.Label>Solicitud</Form.Label>
+        <Form.Control as="textarea" rows={3} />
+      </Form.Group>
+    </Form>
+    <hr />
         <h1>VIKAL</h1>
 <footer>
 
@@ -41,7 +48,7 @@ function Products() {
     <p>tres</p>
 </div>
 </footer>
-        </>
+</>
     )
-};
-export default Products;
+}
+export default Contact
